@@ -45,10 +45,11 @@ table[index]=new KeyValuie(key,value);
 
         if (index==startIndex){
             break;
-        }
-    }
-    return null; //key not found 
-}public boolean isInTable(String key){
+        }return null;
+    }public boolean isInTable(String key){
     return lookup(key) !=null;
+}
+   
+
 }
 }
